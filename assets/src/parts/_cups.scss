@@ -1,0 +1,10 @@
+.cups{
+	@extend .container;
+	margin-top: 40px;
+	background-color: #fdde7e;
+	&__wrapper{
+		display: flex;
+		justify-content: space-around;
+		align-items:center;
+	}
+}

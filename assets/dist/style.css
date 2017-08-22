@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.container, .cups {
+  max-width: 1200px;
+  width: 100%;
+  padding: 30px 15px;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: 'miso-bold';
+  src: url("../../fonts/miso_bold_macroman/miso-bold-webfont.woff2") format("woff2"), url("../../fonts/miso_bold_macroman/miso-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'miso-light';
+  src: url("../../fonts/miso_light_macroman/miso-light-webfont.woff2") format("woff2"), url("../../fonts/miso_light_macroman/miso-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'miso-regular';
+  src: url("../../fonts/miso_regular_macroman/miso-regular-webfont.woff2") format("woff2"), url("../../fonts/miso_regular_macroman/miso-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.cups {
+  margin-top: 40px;
+  background-color: #fdde7e; }
+  .cups__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+
+.cups-item {
+  width: 360px;
+  height: 441px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px lightgray;
+  transition: all .3s; }
+  .cups-item:hover {
+    box-shadow: 0 0 8px black;
+    cursor: pointer; }
+  .cups-item__img {
+    padding-left: 15px; }
+    .cups-item__img--center {
+      padding-top: 20px; }
+  .cups-item__prize {
+    padding-top: 15px;
+    color: #02995b;
+    font-family: 'Miso-bold';
+    font-size: 70px;
+    line-height: 76px; }
+  .cups-item__title {
+    font-family: 'Miso-regular';
+    font-size: 56px;
+    line-height: 60px; }
+  .cups-item__text {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 156px;
+    text-align: center; }
+  .cups-item--tall {
+    height: 500px; }
+
+/*# sourceMappingURL=style.css.map */

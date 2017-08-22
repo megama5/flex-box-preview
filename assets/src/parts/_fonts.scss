@@ -1,0 +1,26 @@
+// font-family: 'Lato', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+@font-face {
+    font-family: 'miso-bold';
+    src: url('../../fonts/miso_bold_macroman/miso-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/miso_bold_macroman/miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'miso-light';
+    src: url('../../fonts/miso_light_macroman/miso-light-webfont.woff2') format('woff2'),
+         url('../../fonts/miso_light_macroman/miso-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'miso-regular';
+    src: url('../../fonts/miso_regular_macroman/miso-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/miso_regular_macroman/miso-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

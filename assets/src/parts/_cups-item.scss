@@ -1,0 +1,43 @@
+.cups-item{
+	width: 360px;
+	height: 441px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ffffff;
+	box-shadow: 0 1px 1px lightgray;
+	transition: all .3s;
+	&:hover{
+		box-shadow: 0 0 8px black;	
+		cursor: pointer;
+	}
+	&__img{
+		padding-left: 15px;
+		&--center{
+			padding-top: 20px;
+		}
+	}
+	&__prize{
+		padding-top: 15px;
+		color: #02995b;
+		font-family: 'Miso-bold';
+		font-size: 70px;
+		line-height: 76px;
+	}
+	&__title{
+		font-family: 'Miso-regular';
+		font-size: 56px;
+		line-height: 60px;
+	}
+	&__text{
+		font-family: 'Lato', sans-serif;
+		font-size: 20px;
+		line-height: 26px;
+		max-width: 156px;
+    text-align: center;
+	}
+	&--tall{
+		height: 500px;
+	}
+}
